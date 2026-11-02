@@ -1,0 +1,27 @@
+config_version=5
+
+[application]
+
+config/name="TestBase"
+config/features=PackedStringArray("4.7", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+SaveManager="*uid://b83jnbl6cmmtn"
+SignalBus="*uid://dt5n6yicdgyq6"
+UiManager="*uid://dbxl5dlummjcq"
+GameData="*uid://c5yos7jeu83lw"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
