@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cwymdpg6u8hq6"]
+
+[ext_resource type="PackedScene" uid="uid://cibu7nnpeuqad" path="res://scenes/character/character_base.tscn" id="1_h6tdw"]
+[ext_resource type="Script" uid="uid://birma7lgbt8rn" path="res://scenes/character/player/player.gd" id="2_4ywt2"]
+
+[node name="Player" unique_id=742477489 instance=ExtResource("1_h6tdw")]
+script = ExtResource("2_4ywt2")
+
+[node name="AnimatedSprite2D" parent="." index="0" unique_id=1895147160]
+autoplay = "idle_down"
+frame_progress = 0.6239292
